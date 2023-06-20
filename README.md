@@ -12,7 +12,7 @@
 * **For Jenkins Step By Step installation:-** (https://github.com/sanjusanjay7/Jenkins-Installation-on-mazon-Linux-2.git)
 * **Fork the below two Repositories.** 
 * **Python-Source-Code Repository:** https://github.com/sanjusanjay7/Python-source-code.git
-* **K8s-Manifests Repository:** https://github.com/sampathshivakumar/K8s-Manifests.git 
+* **K8s-Manifests Repository:** https://github.com/sanjusanjay7/K8s-Manifests.git 
 
 ### Note:- Most of things are hardcoded in jenkins and deployment files,So Do Not change the following.
 * **Repository names that you fork**.
@@ -31,8 +31,8 @@ Note:- better don't change your repo name in docker hub.
 # In K8s-Manifests/Jenkinsfile
 
 replace bellow two line:-
-sh "git config user.email sampathshivakumar@gmail.com"   ---> sh "git config user.email <your-email-id>" 
-sh "git config user.name sampathshivakumar"              ---> sh "git config user.name <git-user-name>"
+sh "git config user.email sesnagari@gmail.com"   ---> sh "git config user.email <your-email-id>" 
+sh "git config user.name sanjusanjay7"              ---> sh "git config user.name <git-user-name>"
 
 sh "sed -i 's+dockersampath/packages.*+dockersampath/packages:${DOCKERTAG}+g' deployment.yaml"
 sh "sed -i 's+<your-docker-hub-usename>/packages.*+<your-docker-hub-usename>/packages:${DOCKERTAG}+g' deployment.yaml"
