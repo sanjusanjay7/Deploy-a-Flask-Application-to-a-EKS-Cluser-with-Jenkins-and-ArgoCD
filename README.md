@@ -9,7 +9,7 @@
 * **EKS Cluster running**
 * **Basic Understanding of Jenkins, Docker and Kubernetes.**
 ### Reference:-
-* **For Jenkins Step By Step installation:-** [https://gist.github.com/sampathshivakumar/54449ea95540ad0fd0f0cf44beb54ff9](https://github.com/sanjusanjay7/Jenkins-Installation-on-mazon-Linux-2.git)
+* **For Jenkins Step By Step installation:-** (https://github.com/sanjusanjay7/Jenkins-Installation-on-mazon-Linux-2.git)
 * **Fork the below two Repositories.** 
 * **Python-Source-Code Repository:** https://github.com/sampathshivakumar/Python-Source-Code.git
 * **K8s-Manifests Repository:** https://github.com/sampathshivakumar/K8s-Manifests.git 
