@@ -11,7 +11,7 @@
 ### Reference:-
 * **For Jenkins Step By Step installation:-** (https://github.com/sanjusanjay7/Jenkins-Installation-on-mazon-Linux-2.git)
 * **Fork the below two Repositories.** 
-* **Python-Source-Code Repository:** https://github.com/sampathshivakumar/Python-Source-Code.git
+* **Python-Source-Code Repository:** https://github.com/sanjusanjay7/Python-source-code.git
 * **K8s-Manifests Repository:** https://github.com/sampathshivakumar/K8s-Manifests.git 
 
 ### Note:- Most of things are hardcoded in jenkins and deployment files,So Do Not change the following.
